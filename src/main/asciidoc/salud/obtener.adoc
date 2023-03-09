@@ -1,0 +1,9 @@
+[[verificar_estado_caso_get]]
+==== GET /salud
+Cuando la aplicación está levantada esta llamada retorna Ok
+
+===== Pedido
+include::{snippets}/obtener-estado-aplicacion/http-request.adoc[]
+
+===== Respuesta
+include::{snippets}/obtener-estado-aplicacion/http-response.adoc[]

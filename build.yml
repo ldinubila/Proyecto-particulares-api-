@@ -1,0 +1,18 @@
+pr: none
+trigger:
+  branches:
+    include:
+      - '*'
+
+name: $(SourceBranchName)-$(Build.BuildId)
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: Bash@3
+  displayName: 'Compilar'
+  inputs:
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+    targetType: 'inline'
+    script: mvnw compile

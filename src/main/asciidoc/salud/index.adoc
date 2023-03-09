@@ -1,0 +1,4 @@
+[[verificar_estado]]
+=== Verificar estado de la aplicación
+
+include::obtener.adoc[]

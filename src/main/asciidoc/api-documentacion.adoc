@@ -1,0 +1,12 @@
+:sectnums:
+:sectnumlevels: 5
+:toc: left
+:toclevels: 3
+:page-layout: docs
+
+= Proyecto Particulares API
+
+[[ejemplos]]
+== Ejemplos
+
+include::salud/index.adoc[]
